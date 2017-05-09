@@ -23,24 +23,18 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-    <section class="hero" id="intro">
+    <section id="home">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-right navicon">
-                    <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center inner">
-                    <div class="animatedParent">
-                        <h1 class="animated fadeInDown">GABRIEL BRICKLE</h1>
-                        <p class="animated fadeInUp">Front End Engineer</p>
+                <div class="wrap-hero-content">
+                    <div class="hero-content">
+                        <h1>Hello</h1>
+                        <br>
+                        <span class="typed"></span>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <a href="#about" class="learn-more-btn btn-scroll">About Me</a>
+                <div class="mouse-icon margin-20">
+                    <div class="scroll"></div>
                 </div>
             </div>
         </div>
@@ -73,12 +67,14 @@
                                 <!-- <li class="active"><a href="#intro">Home</a></li> -->
                                 <li><a href="#about">About Me</a></li>
                                 <li><a href="#service">Contact</a></li>
-                                <li><a href="#works">Projects</a></li>
+                                <!-- <li><a href="#works">Projects</a></li> -->
 
                                 <li><a href="#contact">Skills</a></li>
-                                <li><a href="#contact" onClick="window.open('resume/gbresume.pdf');">Resume</a></li>
-                                <li><a target="_blank" target="_blank" href="https://www.linkedin.com/in/gabriel-brickle-aa842b4a
-">Linkedin</a></li>
+                                <li><a href="#contact" onClick="window.open('resume/gabrielbresume.pdf');">Resume</a></li>
+                                <li>
+                                    <a target="_blank" target="_blank" href="https://www.linkedin.com/in/gabriel-brickle-aa842b4a
+">Linkedin</a>
+                                </li>
                             </ul>
                         </div>
                         <!-- /.Navbar-collapse -->
@@ -91,44 +87,59 @@
     </div>
     <!-- /Navigation -->
 
+
+
+
+
+
+
+
+
+
     <!-- Section: about -->
     <section id="about" class="home-section color-dark bg-white">
+      <div class="container marginbot-50">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <div>
+                      <div class="section-heading text-center">
+                          <h2 class="h-bold">About Me</h2>
+                          <div class="divider-header"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
         <div class="container marginbot-50">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-12">
+                  <div class="col-lg-4">
                     <div class="animatedParent">
                         <div class="section-heading text-center animated bounceInDown">
-                            <h2 class="h-bold">About Me</h2>
-                            <img src="img/myface.jpg" alt="..." class="img-circle">
-                            <div class="divider-header"></div>
+                            <img src="img/headshot.png" alt="..." class="img-circle">
+
                         </div>
                     </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="container">
-
-
-            <div class="row">
-
-
-                <div class="col-lg-8 col-lg-offset-2 animatedParent">
-                    <div class="text-center">
-                        <p>
-                            I'm a saleslady turned engineer with a passion for making clean, responsive and user friendly websites. I've spent the past 3 years working in tech in Washington, DC and recently moved back to beautiful Charleston to pursue my dream career; development. I'm currently the Teaching Assistant for the front end engineering cohort at The Iron Yard.
-                        </p>
-                        <p>
-                            When I'm not coding, you can find me horseback riding, spending time with my family, or with my dogs, Max and Winnie.
-                        </p>
-                        <a href="#service" class="btn btn-skin btn-scroll" onClick="window.open('resume/gbresume.pdf');">See My Full Resume</a>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="col-lg-8 col-lg-offset-2 animatedParent">
+                        <div class="text-center">
+                            <p>
+                                I'm a saleslady turned engineer with a passion for making clean, responsive and user friendly websites and apps. I'm currently a Developer at Launchpeer where we build and launch startup companies. My favorite part of being a developer, especially at Launchpeer, is being a part of an idea from conception to completion. We work with a lot of passionate clients and being able to bring their ideas to life is pretty darn cool. I also love that the field is constantly changing, so you’re rarely doing something that you’ve done before.
+                            </p>
+                            <p>
+                                When I'm not coding, you can find me horseback riding, spending time with my family, or with my dogs, Max and Winnie.
+                            </p>
+                            <a href="#service" class="btn btn-skin btn-scroll" onClick="window.open('resume/gabrielbresume.pdf');">See My Full Resume</a>
+                        </div>
                     </div>
+                  </div>
                 </div>
 
 
-            </div>
-        </div>
+
 
     </section>
     <!-- /Section: about -->
@@ -213,8 +224,35 @@
     <!-- /Section: services -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Section: works -->
-    <section id="works" class="home-section color-dark text-center bg-white">
+    <!-- <section id="works" class="home-section color-dark text-center bg-white">
         <div class="container marginbot-50">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -231,52 +269,154 @@
 
         </div>
 
-        <div class="container">
+            <div class="container">
+            	<div class="row">
+                	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            			<ol class="carousel-indicators">
+            			  	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            			</ol>
+            			<div class="carousel-inner">
+            			    <div class="item active">
+            			    	<img src="img/unlockchucktownsnip.jpg" alt="First slide">
+                                <div class="header-text hidden-xs">
+                                    <div class="col-md-12 text-center">
+                                        <h2>
+                                        	<span>Unlock Chucktown</span>
+                                        </h2>
+                                        <br>
 
-            <div class="row animatedParent">
-                <div class="col-sm-12 col-md-12 col-lg-12" id="projectboxes">
-
-                    <!-- <div class="row gallery-item"> -->
-                    <div class="col-md-3 animated fadeInUp">
-
-                        <a href="img/largesnake.png" title="My version of the 1990's game, Snake, using Backbone.js, AJAX and jQuery. Users can select their player type and are directed to a page where a grid is rendered and their player can move to increase their score." data-lightbox-gallery="gallery1"
-                            data-lightbox-hidpi="img/works/1@2x.jpg">
-                            <img src="img/largesnake.png" class="img-responsive" alt="img">
-                        </a>
-
-                        <h6><a href="http://closed-apples.surge.sh"  id="projectlink"target="_blank">Visit Site </a> <br> <a href="https://github.com/gabrielbrickle/SkaterSite" id="projectlink" target="_blank">View on Github</a></h6>
-                    </div>
-                    <div class="col-md-3 animated fadeInUp slow">
-                        <a href="img/finallingo.png" title="Lingo helps users learn a foreign language by reading partially translated articles from the New York Times API. This project was created using Angular.js and Foundation." data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-                            <img src="img/finallingo.png" class="img-responsive" alt="img">
-                        </a>
-                        <h6><a href="http://immense-committee.surge.sh" id="projectlink" target="_blank">Visit Site</a> <br> <a href="https://github.com/gabrielbrickle/lingo" id="projectlink" target="_blank">View on Github</a></h6>
-                    </div>
-                    <div class="col-md-3 animated fadeInUp slower">
-                        <a href="img/taskmanager.jpg" title="" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-                            <img src="img/taskmanager.jpg" class="img-responsive" alt="img">
-                        </a>
-                        <h6><a href="http://taskmanager.surge.sh" id="projectlink" target="_blank">Visit Site</a> <br> <a href="https://github.com/gabrielbrickle/Task-Manager" id="projectlink" target="_blank">View on Github</a></h6>
-                    </div>
-                    <div class="col-md-3 animated fadeInUp">
-                        <a href="img/skater.png" title="My first responsive web design project using HTML, CSS and Sass." data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-                            <img src="img/skater.png" class="img-responsive" alt="img">
-                        </a>
-
-                        <h6>
-                              <a href="http://kindly-snake.surge.sh" id="projectlink" target="_blank">Visit Site</a> <br>
-                              <a href="https://github.com/gabrielbrickle/SkaterSite" id="projectlink" target="_blank">View on Github</a>
-                            </h6>
-                    </div>
-                    <!-- </div> -->
-
-                </div>
+                                        <div class="">
+                                            <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="http://unlockchucktown.com/" target="_blank">Visit Site</a></div>
+                                    </div>
+                                </div>
+            			    </div>
+            			    <div class="item">
+            			    	<img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Second slide">
+                                <div class="header-text hidden-xs">
+                                    <div class="col-md-12 text-center">
+                                        <h2>
+                                            <span>Welcome to LOREM IPSUM</span>
+                                        </h2>
+                                        <br>
+                                        <h3>
+                                        	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                        </h3>
+                                        <br>
+                                        <div class="">
+                                            <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                                    </div>
+                                </div>
+            			    </div>
+            			    <div class="item">
+            			    	<img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Third slide">
+                                <div class="header-text hidden-xs">
+                                    <div class="col-md-12 text-center">
+                                        <h2>
+                                            <span>Welcome to LOREM IPSUM</span>
+                                        </h2>
+                                        <br>
+                                        <h3>
+                                        	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                        </h3>
+                                        <br>
+                                        <div class="">
+                                            <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                                    </div>
+                                </div>
+            			    </div>
+            			</div>
+            			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            		    	<span class="glyphicon glyphicon-chevron-left"></span>
+            			</a>
+            			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            		    	<span class="glyphicon glyphicon-chevron-right"></span>
+            			</a>
+            		</div>
+            	</div>
             </div>
-        </div>
 
-    </section>
+
+    </section> -->
     <!-- /Section: works -->
+    <!-- Section - work experience -->
 
+                <div class="container">
+                    		<div class="row">
+                				<div class="col-md-12">
+                					<div class="page-header">
+                					  <h1>What I've Been Up To</h1>
+                					</div>
+                					<div style="display:inline-block;width:100%;overflow-y:auto;">
+                					<ul class="timeline timeline-horizontal">
+                						<li class="timeline-item">
+                							<div class="timeline-badge"><img src="img/launchpeer.jpg" alt=""></div>
+                							<div class="timeline-panel">
+                								<div class="timeline-heading">
+                									<h4 class="timeline-title">Launchpeer</h4>
+                									<p><small class="text-muted">October 2016 - Present</small></p>
+                								</div>
+                								<div class="timeline-body">
+                									<p>Junior Full Stack Developer</p>
+                								</div>
+                							</div>
+                						</li>
+                						<li class="timeline-item">
+                							<div class="timeline-badge"><img src="img/ironyard.png" alt=""></div>
+                							<div class="timeline-panel">
+                								<div class="timeline-heading">
+                									<h4 class="timeline-title">The Iron Yard</h4>
+                									<p><small class="text-muted">August 2016 - October 2016</small></p>
+                								</div>
+                								<div class="timeline-body">
+                									<p>Teaching Assistant</p>
+                								</div>
+                							</div>
+                						</li>
+                						<li class="timeline-item">
+                							<div class="timeline-badge"><img src="img/ironyard.png" alt=""></i></div>
+                							<div class="timeline-panel">
+                								<div class="timeline-heading">
+                									<h4 class="timeline-title">The Iron Yard</h4>
+                									<p><small class="text-muted">May 2016 - August 2016</small></p>
+                								</div>
+                								<div class="timeline-body">
+                									<p>Front End Engineering Student</p>
+                								</div>
+                							</div>
+                						</li>
+                						<li class="timeline-item">
+                							<div class="timeline-badge"><img src="img/inpact.png" alt=""></div>
+                							<div class="timeline-panel">
+                								<div class="timeline-heading">
+                									<h4 class="timeline-title">InPACT</h4>
+                									<p><small class="text-muted">January 2016 - May 2016</small></p>
+                								</div>
+                								<div class="timeline-body">
+                									<p>City Manager, Vouch Application</p>
+                								</div>
+                							</div>
+                						</li>
+                						<li class="timeline-item">
+                							<div class="timeline-badge"><img src="img/ls.png" alt=""></div>
+                							<div class="timeline-panel">
+                								<div class="timeline-heading">
+                									<h4 class="timeline-title">Living Social</h4>
+                									<p><small class="text-muted">September 2013 - January 2016</small></p>
+                								</div>
+                								<div class="timeline-body">
+                									<p>Marketing Campaign Consultant</p>
+                								</div>
+                							</div>
+                						</li>
+                					</ul>
+                				</div>
+                				</div>
+                			</div>
+
+                		</div>
+        <!--/.EMPLOYEMENT END-->
     <!-- Section: contact -->
     <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
         <div class="container marginbot-50">
@@ -319,44 +459,68 @@
                 <!-- End Skill Bar -->
 
                 <div class="skillbar clearfix " data-percent="80%">
-                    <div class="skillbar-title" style="background: #46465e;"><span>Angular.js</span></div>
+                    <div class="skillbar-title" style="background: #46465e;"><span>Angular</span></div>
                     <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title" style="background: #a05bde;"><span>React</span></div>
+                    <div class="skillbar-bar" style="background: #be5bde;"></div>
+                    <div class="skill-bar-percent">50%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #cddc39;"><span>Ionic</span></div>
+                    <div class="skillbar-bar" style="background: #89c34a;"></div>
                     <div class="skill-bar-percent">80%</div>
                 </div>
                 <!-- End Skill Bar -->
 
-                <div class="skillbar clearfix " data-percent="25%">
+                <div class="skillbar clearfix " data-percent="65%">
                     <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
                     <div class="skillbar-bar" style="background: #525252;"></div>
-                    <div class="skill-bar-percent">25%</div>
+                    <div class="skill-bar-percent">65%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #3f51b5;"><span>Contentful</span></div>
+                    <div class="skillbar-bar" style="background: #3f69b5;"></div>
+                    <div class="skill-bar-percent">75%</div>
                 </div>
                 <!-- End Skill Bar -->
 
-                <div class="skillbar clearfix " data-percent="95%">
-                    <div class="skillbar-title" style="background: #27ae60;"><span>Foundation/Bootstrap</span></div>
-                    <div class="skillbar-bar" style="background: #2ecc71;"></div>
-                    <div class="skill-bar-percent">95%</div>
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #ff2222;"><span>Foundation/Bootstrap</span></div>
+                    <div class="skillbar-bar" style="background: #ff5722;"></div>
+                    <div class="skill-bar-percent">100%</div>
                 </div>
                 <!-- End Skill Bar -->
 
                 <div class="skillbar clearfix " data-percent="75%">
-                    <div class="skillbar-title" style="background: #124e8c;"><span>Gulp.js</span></div>
+                    <div class="skillbar-title" style="background: #124e8c;"><span>Gulp/Grunt</span></div>
                     <div class="skillbar-bar" style="background: #4288d0;"></div>
                     <div class="skill-bar-percent">75%</div>
                 </div>
                 <!-- End Skill Bar -->
 
-                <div class="skillbar clearfix " data-percent="65%">
+                <div class="skillbar clearfix " data-percent="85%">
                     <div class="skillbar-title" style="background: #673ab7;"><span>Node.js</span></div>
                     <div class="skillbar-bar" style="background: #bc76c7;"></div>
-                    <div class="skill-bar-percent">65%</div>
+                    <div class="skill-bar-percent">85%</div>
                 </div>
                 <!-- End Skill Bar -->
 
-                <div class="skillbar clearfix " data-percent="90%">
+                <div class="skillbar clearfix " data-percent="95%">
                     <div class="skillbar-title" style="background: #03867a;"><span>Git</span></div>
                     <div class="skillbar-bar" style="background: #009688;"></div>
-                    <div class="skill-bar-percent">90%</div>
+                    <div class="skill-bar-percent">95%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #03862a;"><span>Mongo</span></div>
+                    <div class="skillbar-bar" style="background: #4caf50;"></div>
+                    <div class="skill-bar-percent">65%</div>
                 </div>
                 <!-- End Skill Bar -->
 
@@ -399,7 +563,7 @@
     <script src="js/jquery.appear.js"></script>
     <script src="js/stellar.js"></script>
     <script src="js/nivo-lightbox.min.js"></script>
-
+    <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/custom.js"></script>
     <script src="js/css3-animate-it.js"></script>
 

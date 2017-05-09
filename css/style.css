@@ -155,9 +155,7 @@ blockquote strong {
 .site-logo a.brand {
 	color: #111;
 	text-transform: uppercase;
-	font-size: 32px;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
 	margin-top: 20px;
 }
 
@@ -211,7 +209,7 @@ blockquote strong {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
-	  border-radius: 0;	
+	  border-radius: 0;
 	margin-top: 21px;
 	border-top: none;
 }
@@ -474,9 +472,9 @@ hr.bold {
 	padding: 0;
 }
 
-.carousel-control .glyphicon-chevron-left, 
-.carousel-control .glyphicon-chevron-right, 
-.carousel-control .icon-prev, 
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
 .carousel-control .icon-next {
 	position: absolute;
 	top: 45%;
@@ -587,7 +585,7 @@ hr.bold {
 
 .service-icon {
 	margin-bottom: 20px;
-}	
+}
 
 .service-desc h5 {
 	text-transform: uppercase;
@@ -616,7 +614,7 @@ hr.bold {
     display: block;
     width: 100%;
     height: auto;
-}	
+}
 
 /* ===========================
 --- Contact
@@ -680,7 +678,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 
-.box-social .social-facebook a { 
+.box-social .social-facebook a {
 	display: block;
 	background: #3873ae;
 }
@@ -796,7 +794,7 @@ footer {
 footer {
 	text-align: center;
 	padding: 50px 0 30px ;
-	
+
 }
 
 footer p {
@@ -880,7 +878,7 @@ footer .social-widget ul.team-social li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 400;	
+	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 14px;
 }
@@ -970,7 +968,7 @@ a.btn:focus{
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-	
+
     .intro {
         height: 100%;
         padding: 0;
@@ -979,7 +977,7 @@ a.btn:focus{
     .brand-heading {
         font-size: 100px;
     }
-	
+
 
     .intro-text {
         font-size: 25px;
@@ -1009,29 +1007,29 @@ a.btn:focus{
 	.navbar-header button {
 		background: #111;
 	}
-	
+
 	.navbar-header button.navbar-toggle {
 		padding: 4px 15px;
 		font-size: 14px;
 		color: #fff;
 	}
-	
+
 	.navbar-custom .nav {
 		background: #444;
 	}
-	
+
 	.service-box {
 		margin-bottom: 50px;
 	}
-	
+
 	.team-wrap {
 		margin-bottom: 30px;
 	}
-	
+
 	form#contact-form {
 		margin-bottom: 50px;
 	}
-	
+
 	.xs-marginbot-20 {
 		margin-bottom: 20px;
 	}
@@ -1043,7 +1041,7 @@ a.btn:focus{
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
 	}
-	
+
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
 	}
